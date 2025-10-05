@@ -1,5 +1,5 @@
 package boop.backend;
 
-public class group {
+public class Group {
     
 }
