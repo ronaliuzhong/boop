@@ -2,6 +2,7 @@ package boop.backend;
 
 import java.util.List;
 
+
 public class User {
     
     private Long id;
@@ -16,17 +17,14 @@ public class User {
     private String bio;
     private String profilePictureUrl;
     
-    @ManyToMany
     private List<User> friends;
     
     private Double latitude;
     private Double longitude;
     private Boolean isLocationVisible;
 
-    @ManyToMany
     private List<Classroom> joinedClassrooms;
 
-    @ManyToMany
     private List<Group> groups;
     private University university;
     private String major;
