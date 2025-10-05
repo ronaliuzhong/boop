@@ -11,13 +11,24 @@ public class User {
     private String password;
     private int phone_number;
 
+    private String firstName;
+    private String lastName;
+    private String bio;
+    private String profilePictureUrl;
     
+    @ManyToMany
     private List<User> friends;
     
     private Double latitude;
     private Double longitude;
     private Boolean isLocationVisible;
 
+    @ManyToMany
     private List<Classroom> joinedClassrooms;
-    private 
+    @ManyToMany
+    private List<Group> groups;
+    private University university;
+    private String major;
+
+
 }
