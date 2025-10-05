@@ -1,4 +1,4 @@
-package boop.backend;
+package backend;
 
 public class University {
 
