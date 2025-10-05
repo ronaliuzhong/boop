@@ -1,0 +1,18 @@
+- Google Sign-in
+
+
+Additional NotesL
+- University class should have authentication via school email
+
+
+To-Do
+
+- Finish setting up (Overall)
+
+-Google Account Authentication (Group 1):
+
+-Location Sharing/Google Maps (Group 2):
+
+-Web Scraping for Classes (Group 3): 
+    Victor + Alex
+
