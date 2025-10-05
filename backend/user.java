@@ -19,4 +19,5 @@ public class User {
     private Boolean isLocationVisible;
 
     private List<Classroom> joinedClassrooms;
+    private 
 }
