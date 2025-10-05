@@ -14,4 +14,10 @@ public class User {
     
     private List<User> friends;
     
+    private Double latitude;
+    private Double longitude;
+    private Boolean isLocationVisible;
+
+    private List<Classroom> joinedClassrooms;
+    private 
 }
