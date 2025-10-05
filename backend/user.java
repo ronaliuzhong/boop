@@ -25,17 +25,10 @@ public class User {
 
     @ManyToMany
     private List<Classroom> joinedClassrooms;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     @ManyToMany
     private List<Group> groups;
     private University university;
     private String major;
 
-
-=======
->>>>>>> fdb75d09c39c04bdce233bbbac72ffd305daa026
-=======
-    private 
->>>>>>> 7141ec4ba2584ee52098aaf72c424e023c72c717
 }
