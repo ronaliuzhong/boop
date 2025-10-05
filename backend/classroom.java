@@ -8,7 +8,6 @@ public class Classroom {
 
     private String name;
 
-    @ManyToMany
     private List<User> members;
 
 }

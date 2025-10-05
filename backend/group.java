@@ -9,10 +9,8 @@ public class Group {
     private String name;
     private Boolean isPublic;
 
-    @ManyToMany
     private List<User> members;
 
-    @ManyToOne
     private User createdBy;
 
 }
