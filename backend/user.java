@@ -1,6 +1,9 @@
 package backend;
 
 import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 
 
 public class User {
@@ -28,5 +31,11 @@ public class User {
     private List<Group> groups;
     private University university;
     private String major;
+
+    @Repository
+    public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
+    }
+
 
 }
